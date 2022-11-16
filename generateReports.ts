@@ -18,7 +18,7 @@ const generateReport = async (
 
   // `.report` is the HTML report as a string
   const reportHtml = runnerResult.report;
-  fs.writeFileSync("./reports/" + dateStamp + " " + name + ".html", reportHtml);
+  fs.writeFileSync("./reports/" + name + "_" + dateStamp + ".html", reportHtml);
 
   // `.lhr` is the Lighthouse Result as a JS object
   console.log("Report is done for", runnerResult.lhr.finalUrl);
