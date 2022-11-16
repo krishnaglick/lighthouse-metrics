@@ -31,7 +31,7 @@ const generateReport = async (
 };
 
 export const generateReports = async () => {
-  const dateStamp = new Date().toDateString();
+  const dateStamp = new Date().toString();
   console.log("Generating Reports");
 
   const pages = [
