@@ -1,0 +1,1 @@
+To view one of the reports, get it's Raw url and plug it in to [this website](https://htmlpreview.github.io/).
